@@ -1,4 +1,6 @@
-main()
+#include <stdio.h>
+
+int main()
 {
     int i, n, ans = 1;
     printf("Enter a number : ");
@@ -8,4 +10,6 @@ main()
         ans *= i;
     }
     printf("Ans is : %d\n", ans);
+
+    return 0;
 }

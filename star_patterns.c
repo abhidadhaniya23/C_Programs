@@ -118,6 +118,7 @@ int main()
 }
 */
 
+/*
 // 1
 // 01
 // 101
@@ -137,4 +138,48 @@ int main()
 		printf("\n");
 	}
 	return 0;
+}
+*/
+
+
+// AAAAA
+// BBBB
+// CCC
+// DD
+// E
+/*
+int main()
+{
+	// int i,j;
+	for (int i = 1; i<=5; i++)
+	{
+		for (int j = 5; j>=i; j--)
+		{
+			printf("%c",(char)(i+64));
+		}
+		printf("\n");
+	}
+	return 0;
+}
+*/
+
+// 12345
+//  2345
+//   345
+//    45
+//     5
+void main()
+{
+	for (int i = 1; i <=5; i++)
+	{
+		for (int j=2; j<=i; j++)
+		{
+			printf(" ");
+		}
+		for(int k=5; k>=i; k--){
+			// printf("*");
+			printf("%d",k);
+		}
+		printf("\n");
+	}
 }

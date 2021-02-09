@@ -161,8 +161,18 @@ int main()
 	}
 	return 0;
 }
+
 */
 
+
+
+
+					// note
+
+// this is wrong so please don't see this... I am working on this pattern...
+
+
+/*
 // 12345
 //  2345
 //   345
@@ -183,3 +193,4 @@ void main()
 		printf("\n");
 	}
 }
+*/

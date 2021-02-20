@@ -62,7 +62,7 @@ int main()
 				printf("*");
 			}
 			printf("\n");
-		}	
+		}
 	return 0;
 }
 */
@@ -96,7 +96,7 @@ int main()
 //    ***
 //   *****
 //  *******
-// *********  
+// *********
 int main()
 {
 	for (int i = 1; i <=5; i++)
@@ -113,7 +113,7 @@ int main()
 				printf("*");
 			}
 			printf("\n");
-		}	
+		}
 	return 0;
 }
 */
@@ -165,20 +165,42 @@ int main()
 */
 
 
-
-
-					// note
-
-// this is wrong so please don't see this... I am working on this pattern...
-
-
 /*
+
 // 12345
 //  2345
 //   345
 //    45
 //     5
-void main()
+
+int main()
+{
+
+	for (int i = 1; i <= 5; i++) {
+		for (int j = 1; j < i; j++)
+		{
+			printf(" ");
+		}
+		for (int k = i; k <= 5; k++) {
+			printf("%d", k);
+		}
+		printf("\n");
+	}
+	return 0;
+}
+*/
+
+
+
+/*
+
+// 54321
+//  4321
+//   321
+//    21
+//     1
+
+int main()
 {
 	for (int i = 1; i <=5; i++)
 	{
@@ -188,9 +210,10 @@ void main()
 		}
 		for(int k=5; k>=i; k--){
 			// printf("*");
-			printf("%d",k);
+			printf("%d",k-i+1);
 		}
 		printf("\n");
 	}
+	return 0;
 }
 */

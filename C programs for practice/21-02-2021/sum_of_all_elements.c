@@ -9,7 +9,7 @@ int main()
 	int sum = 0;
 	int arr[sizeof_array];
 
-	printf("Enter your elements for perticular array...\n");
+	printf("Enter %d elements for array...\n",sizeof_array);
 
 	for (int i = 0; i < sizeof_array; i++) {
 		scanf("%d", &arr[i]);
